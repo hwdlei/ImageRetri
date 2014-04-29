@@ -1,4 +1,0 @@
-ImageRetri
-==========
-
-image  retrieval
