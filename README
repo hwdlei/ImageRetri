@@ -1,1 +1,10 @@
 Image Retrieval
+
+    使用Sift算法提取图像特征，并用bag of words模型对特征向量进行降维，将catech 256数据集
+生成的特征向量输出到文件中bows.tmp中，最后用topN算法找出匹配最佳的20幅图片。
+
+使用配置：
+    下载opencv2.4.8,将opencv\build\java\x64\下的dll文件放到C:\Program Files\Java\jdk1.7.0_07\bin（jdk所在目录）下，
+将graduation文件夹放在F盘下（F：\\graduation\\..）,将catech 256数据集解压到picture文件夹下（ImageRetri\pictures\256_ObjectCategories）,
+并将ImageRetri文件夹放到web服务器下即可。
+
